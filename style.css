@@ -1,0 +1,64 @@
+* {
+    padding: auto;
+    margin: auto;
+}
+
+html {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+header {
+    background: linear-gradient(45deg, blueviolet, deeppink);
+    padding: 5px;
+    box-shadow: 0 0 8px 8px black;
+}
+
+h1,
+.intro {
+    text-align: center;
+    color: White;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.photo {
+    text-align: center;
+}
+
+body {
+    background: linear-gradient(45deg, rgb(167, 103, 227), rgb(216, 134, 178));
+
+}
+
+.menu {
+    font-size: medium;
+    background: linear-gradient(75deg, rgb(86, 8, 158), rgb(54, 7, 32));
+    list-style: none;
+    padding-left: 0;
+    height: 150px;
+    width: 150px;
+    margin-left: 0;
+
+}
+
+a,
+h3 {
+    color: bisque;
+    padding: auto;
+    margin: auto;
+    text-decoration: none;
+}
+
+footer {
+    background: linear-gradient(45deg, blueviolet, deeppink);
+    padding: 5px;
+    box-shadow: 0 0 8px 8px black;
+
+}
+
+a:hover {
+    color: brown;
+}
+
+.codespace {
+    color: rgb(15, 82, 82)
+}
