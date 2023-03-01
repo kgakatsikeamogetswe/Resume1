@@ -1,0 +1,107 @@
+/* closing space in the whole webpage*/
+* {
+    padding: auto;
+    margin: auto;
+}
+
+
+/* adding the same font in the entire webpage*/
+html {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+/*the following styling is for my image and the header*/
+.photo {
+    text-align: center;
+}
+img{
+    border-radius: 50%;
+    border:solid whitesmoke;
+}
+
+
+header {
+    background: linear-gradient(45deg, blueviolet, deeppink);
+    padding: 5px;
+    box-shadow: 0 0 8px 8px black;
+    border:solid whitesmoke;
+}
+
+h1,
+#intro {
+    text-align: center;
+    color: White;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+/*navigation bar/ menu bar*/
+.menu {
+    font-size: medium;
+    background: linear-gradient(75deg, rgb(86, 8, 158), rgb(54, 7, 32));
+    list-style: none;
+    padding-left: 0;
+    height: 150px;
+    width: 150px;
+    margin-left: 0;
+}
+
+
+/*background color*/
+body {
+    background: linear-gradient(45deg, rgb(167, 103, 227), rgb(216, 134, 178));
+}
+
+
+/*text decoration for h3 and anchor*/
+a,
+h3 {
+    color: bisque;
+    padding: auto;
+    margin: auto;
+    text-decoration: none;
+}
+
+
+/*footer*/
+footer {
+    background: linear-gradient(45deg, blueviolet, deeppink);
+    padding: 5px;
+    box-shadow: 0 0 8px 8px black;
+    border:solid whitesmoke;
+}
+
+/*hover, when you move your cursor to the text link it will automitically change color*/ 
+a:hover {
+    color: brown;
+}
+
+
+/*this ID is for changing the codespace text color*/
+#codespace {
+    color: rgb(15, 82, 82);
+}
+
+
+/*closing space that is in between the header and nav*/
+.header{
+    margin-bottom: 0px;
+}
+
+
+/*inserting borders in the article part*/
+article{
+    border:solid whitesmoke;
+    padding-left: 60px;
+}
+
+/*spacing of the paragraph*/
+p{
+    margin:20px;
+}
+
+/*spacing of the h3 text*/
+#h3{
+    margin: 7px;
+}
