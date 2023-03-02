@@ -31,7 +31,7 @@ header {
 h1,
 #intro {
     text-align: center;
-    color: White;
+    color: rgb(6, 6, 6);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
@@ -42,15 +42,15 @@ h1,
     background: linear-gradient(75deg, rgb(86, 8, 158), rgb(54, 7, 32));
     list-style: none;
     padding-left: 0;
-    height: 150px;
-    width: 150px;
+    height: 12%;
+    width: 12%;
     margin-left: 0;
 }
 
 
 /*background color*/
 body {
-    background: linear-gradient(45deg, rgb(167, 103, 227), rgb(216, 134, 178));
+    background: linear-gradient(45deg, rgb(190, 157, 221), rgb(233, 198, 217));
 }
 
 
@@ -61,6 +61,7 @@ h3 {
     padding: auto;
     margin: auto;
     text-decoration: none;
+    text-align: center;
 }
 
 
@@ -70,11 +71,29 @@ footer {
     padding: 5px;
     box-shadow: 0 0 8px 8px black;
     border:solid whitesmoke;
+    clear: both;
 }
+.left-icons{
+    width: 23.33%;
+    float: left;
+}
+.middle-icons{
+    width: 23.33%;
+    margin: 0 auto;
+}
+#left{
+    float: left;
+}
+
+#right{
+    float: left;
+}
+
 
 /*hover, when you move your cursor to the text link it will automitically change color*/ 
 a:hover {
     color: brown;
+    background: grey;
 }
 
 
@@ -93,7 +112,10 @@ a:hover {
 /*inserting borders in the article part*/
 article{
     border:solid whitesmoke;
-    padding-left: 60px;
+    width: 85%;
+    float: right;
+    margin-bottom:3%;
+    margin-right: 2%;
 }
 
 /*spacing of the paragraph*/
