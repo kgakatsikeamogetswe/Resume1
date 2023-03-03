@@ -1,0 +1,200 @@
+/* adding the same font in the entire webpage*/
+html {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+/*the following styling is for my image and the header*/
+.photo {
+    text-align: center;
+
+}
+
+img {
+    border-radius: 50%;
+    border: solid whitesmoke;
+}
+
+
+header{
+    background: linear-gradient(55deg, blueviolet, deeppink);
+    padding: 5px;
+    box-shadow: 0 0 8px 8px black;
+    border: solid whitesmoke;
+    clear: both;
+    color: aliceblue;
+}
+
+h1{
+    text-align: center;
+    color: rgb(6, 6, 6);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/*My text ID's*/
+
+#intro{
+    color: aliceblue;
+}
+
+.article{
+    text-align: center;
+    margin-bottom: 2%;
+    position: relative;
+    left:auto;
+    margin-top:aut;
+    
+}
+
+#contact{
+    text-align: center;
+    margin-bottom: 2%;
+    color: black;
+}
+
+
+/*navigation bar/ menu bar*/
+.menu {
+    font-size: medium;
+    background: linear-gradient(75deg, rgb(86, 8, 158), rgb(54, 7, 32));
+    list-style: none;
+    padding-left: 0;
+    height: fit-content;
+    width: fit-content;
+    margin-left: 0;
+}
+
+/*text decoration for h3 and anchor*/
+a,
+h3 {
+    color: bisque;
+    padding: auto;
+    margin: auto;
+    text-decoration: none;
+    text-align: center;
+}
+
+
+/*footer*/
+footer{
+    background: linear-gradient(55deg, blueviolet, deeppink);
+    padding: 5px;
+    box-shadow: 0 0 8px 8px black;
+    border: solid whitesmoke;
+    clear: both;
+    color: aliceblue;
+}
+
+.left-icons {
+    width: 23.33%;
+    float: left;
+}
+
+.middle-icons {
+    width: 23.33%;
+    margin: 0 auto;
+}
+
+#left {
+    float: left;
+}
+
+#right {
+    float: left;
+}
+
+/*hover, when you move your cursor to the text link it will automitically change color*/
+a:hover {
+    color: brown;
+    background: grey;
+}
+
+
+/*this ID is for changing the codespace text color*/
+#codespace {
+    color: rgb(15, 82, 82);
+}
+
+
+/*closing space that is in between the header and nav*/
+.header {
+    margin-bottom: 0px;
+}
+
+
+/*inserting borders in the article part*/
+article {
+    border: solid whitesmoke;
+    width: 85%;
+    float: right;
+    margin-bottom: 3%;
+    margin-right: 2%;
+    background: linear-gradient(45deg, rgb(190, 157, 221), rgb(233, 198, 217));
+}
+
+/*spacing of the paragraph*/
+p,#h3 {
+    margin: 20px;
+    margin: 7px;
+}
+
+
+/*resume6*/
+ul{
+    list-style: none;
+}
+#Container{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+#article{
+    padding: 2%;
+    flex: 3;
+    margin-left: 5px; 
+}
+
+
+#menu{
+    padding: auto;
+    flex: 2;
+    position: fixed;
+}
+#info{
+    text-align: left;
+}
+#a{
+    text-align: center;
+}
+#Education{
+    position: sticky;
+}
+
+#button{
+    background: linear-gradient(65deg, rgb(46, 21, 69), rgb(46, 5, 27));
+    float: right;
+    margin-top:15%;
+}
+#back-a:hover{
+    color: crimson;
+    background-color: antiquewhite;
+}
+
+
+/*#ul{
+    list-style: none;
+}
+#Education{
+    border: 1px solid black;
+    padding: 10px;
+}
+#Experience{
+    border: 1px solid black;
+    padding: 10px;
+    position: fixed;
+}
+#Skills{
+    border: 1px solid black;
+    padding: 10px;
+}
