@@ -41,7 +41,7 @@
                 <!--Unordered list, when you click on one of the below, it will take you straight to the paragraph option you have clicked on.-->
                 <div id="menu">
                     <ul class="menu">
-                        <h3>Menu</h3>
+                        <h3 id="nav-text">Menu</h3>
                         <li><a href="#Education">Education</a></li>
                         <li><a href="#Experience">Experience</a></li>
                         <li><a href="#Skills">Skills</a></li>
@@ -145,84 +145,96 @@
                         <li>Skill 2</li>
                         <li>Skill 3</li>
                         <li>Skill 4</li>
-
-
-                        <!--Fieldset -->
-
-                        <div class="fieldset">
-                            <h1>Form submit</h1>
-                            <p>Please apply here:</p>
-
-                            <form method="post" action="https://formsubmit.co/stimulatekay11ew@gmail.com">
-                                <fieldset>
-                                    <label for="first-name">Enter Your First Name: <input id="first-name"
-                                            name="first-name" type="text" required /></label>
-                                    <br>
-                                    <label for="last-name">Enter Your Last Name: <input id="last-name" name="last-name"
-                                            type="text" required /></label>
-                                    <br>
-                                    <label for="email">Enter Your Email: <input id="email" name="email" type="email"
-                                            required /></label>
-                                </fieldset>
-
-                                <p>Looking for?</p>
-                                <select id="referrer" name="referrer">
-                                    <option value="">Frontend Webpage Developer</option>
-                                    <option value="1">Backend Webpage Developer</option>
-                                    <option value="2">Full Stack</option>
-                                </select>
-
-                                <fieldset>
-                                    <p>Are you are?</p>
-                                    <label for="student"><input id="student" type="radio" name="account-type" />
-                                        Student</label>
-                                    <br>
-                                    <label for="organisation"><input id="student" type="radio" name="account-type" />
-                                        Organisation</label>
-                                    <br>
-                                    <textarea id="bio" name="bio" rows="3" cols="30"
-                                        placeholder="Why are you trying to reach us?"></textarea>
-                                    </label>
-                                </fieldset>
-
-                                <input class="submit" type="submit" value="Send">
-                            </form>
-                        </div>
-
-
-                        <!-- Back to top button -->
-                        <button id="button">
-                            <h3><a href="#Heading" id="back-a">back to top</a></h3>
-                        </button>
                     </ul>
                     </p>
                 </div>
+                <!-- Back to top button -->
+                <button id="button">
+                    <h3><a href="#Heading" id="back-a">back to top</a></h3>
+                </button>
             </article>
         </div>
     </section>
+
+
     <!--Footer-->
     <footer>
-        <h2 id="contact">Contact Details</h2>
+        <div id="container-footer">
 
 
-        <!--Footer icons-->
-        <div class="left-icons">
-            <img src="image/Facebook.jpg" width="5%" height="5%" alt="facebook" id="left">
-            <p>Keamogetswe_Kgakatsi</p>
-            <img src="image/Instagram.jpg" width="5%" height="5%" alt="Instagram" id="left">
-            <p>@Keamogetswe_Kgakatsi11</p>
-            <img src="image/Whatsapp.jpg" width="5%" height="5%" alt="Whatsapp" id="left">
-            <p>0679777367</p>
+        <!--div for fieldset-->
+        <div id="form">
+            <fieldset>
+                <h2>Form submit</h2>
+                <p>Please apply here:</p>
+
+                <form method="post" action="https://formsubmit.co/stimulatekay11ew@gmail.com">
+                    <fieldset>
+                        <label for="first-name">Enter Your First Name: <input id="first-name" name="first-name"
+                                type="text" required /></label>
+                        <br>
+                        <label for="last-name">Enter Your Last Name: <input id="last-name" name="last-name" type="text"
+                                required /></label>
+                        <br>
+                        <label for="email">Enter Your Email: <input id="email" name="email" type="email"
+                                required /></label>
+                    </fieldset>
+
+                    <p>Looking for?</p>
+                    <select id="referrer" name="referrer">
+                        <option value="">Frontend Webpage Developer</option>
+                        <option value="1">Backend Webpage Developer</option>
+                        <option value="2">Full Stack</option>
+                    </select>
+
+                    <fieldset>
+                        <p>Are you considered as?</p>
+                        <label for="student"><input id="student" type="radio" name="account-type" />
+                            Student</label>
+                        <label for="organisation"><input id="student" type="radio" name="account-type" />
+                            Organisation</label>
+                        <br>
+                        <textarea id="bio" name="bio" rows="3" cols="30"
+                            placeholder="Why are you trying to reach us?"></textarea>
+                        </label>
+
+
+                    </fieldset>
+
+                    <input class="submit" type="submit" value="Send">
+                </form>
         </div>
-        <div class="middle-icons">
-            <img src="image/LinkedIn.jpg" width="5%" height="5%" alt="facebook" id="right">
-            <p>Keamogetswe_Kgakatsi</p>
-            <img src="image/Twitter.jpg" width="5%" height="5%" alt="facebook" id="right">
-            <p>@OfficialKea_kgakatsi</p>
-            <img src="image/Tiktok.jpg" width="5%" height="5%" alt="facebook" id="right">
-            <p>_Kea_Kgakatsi</p>
+
+
+        <!-- div for icons and social media details -->
+        <div id="foot">
+            <h2 id="contact">Contact Details</h2>
+            <!--Footer icons-->
+            <div class="left-icons">
+                <img src="image/Facebook.jpg" width="5%" height="5%" alt="facebook" id="left">
+                <p>Keamogetswe_Kgakatsi</p>
+                <img src="image/Instagram.jpg" width="5%" height="5%" alt="Instagram" id="left">
+                <p>@Keamogetswe_Kgakatsi11</p>
+                <img src="image/Whatsapp.jpg" width="5%" height="5%" alt="Whatsapp" id="left">
+                <p>0679777367</p>
+            </div>
+            <div class="middle-icons">
+                <img src="image/LinkedIn.jpg" width="5%" height="5%" alt="facebook" id="right">
+                <p>Keamogetswe_Kgakatsi</p>
+                <img src="image/Twitter.jpg" width="5%" height="5%" alt="facebook" id="right">
+                <p>@OfficialKea_kgakatsi</p>
+                <img src="image/Tiktok.jpg" width="5%" height="5%" alt="facebook" id="right">
+                <p>_Kea_Kgakatsi</p>
+            </div>
+            <p>for more info vist <a href="https://www.linkedin.com/"id="a"> LinkedIn</a></p>
+
+
         </div>
-        for more info vist: <p><a href="https://www.linkedin.com/" id="a">LinkedIn</a></p>
+
+        </div>
+
+
+
 
     </footer>
 </body>
