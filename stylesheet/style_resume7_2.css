@@ -8,14 +8,15 @@ html {
 .photo {
     text-align: center;
     border-radius: 50%;
+    padding-top: 1%;
 }
 #mainHead{
     background-image: url(../image/1.png);
     background-repeat: no-repeat;
     background-size: cover;
-    backdrop-filter: blur(40px);
-    background-position: fit-content;
-   
+    backdrop-filter: blur(10px);
+    height: 665px;  
+    
 }
 
 header {
@@ -23,12 +24,15 @@ header {
     box-shadow: 0 0 8px 8px rgb(0, 0, 0);
     border: solid whitesmoke;
     color: aliceblue;
+    height:665px;
+    
     
 }
 h1 {
     text-align: center;
-    color: rgb(6, 6, 6);
+    color: rgb(255, 255, 255);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 200%;
 }
 
 /*My text ID and article*/
@@ -38,11 +42,7 @@ h1 {
 
 .article {
     text-align: center;
-    position: relative;
     border: solid black;
-    
-    padding-right:5px;
-    margin-left: 130px;
 
 }
 #contact {
@@ -52,17 +52,20 @@ h1 {
 
 
 /*navigation bar/ menu bar*/
-#menu {
-    background: linear-gradient(75deg, rgb(86, 8, 158), rgb(54, 7, 32));
-    position: fixed;
-    width: 135px;
 
-}
-#nav-text,
+
 .menu {
     text-align: left;
     list-style: none;
     margin-left: 0%;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    background: linear-gradient(75deg, rgb(86, 8, 158), rgb(54, 7, 32));
+    height: 100%;
+    background-image: url(../image/1.png);
+    background-size: cover;
+    
 }
 
 
@@ -85,7 +88,9 @@ footer {
     clear: both;
     color: aliceblue;
     justify-content: space-between;
-    position: sticky;
+    background-image: url(../image/1.png);
+    background-size: cover;
+    
 }
 
 

@@ -15,14 +15,15 @@
 <body>
 
     <!--Header-->
-    <header>
+    <header id="Heading">
+
         <div id="mainHead">
             <!--This is the image part, reason why it has such a long value is because i just copied the image path from VS -->
             <div class="photo">
                 <picture>
                     <source srcset="./image/small.jpg" media="(max-width:600px)">
                     <source srcset="./image/medium.jpg" media="(max-width:900px)">
-                    <img src="./image/IMG-20230214-WA0006.jpg" alt="Picture" width="10%" height="10%" class="photo">
+                    <img src="./image/IMG-20230214-WA0006.jpg" alt="Picture" width="20%" height="20%" class="photo">
                 </picture>
             </div>
 
@@ -44,25 +45,23 @@
     <!--Aside-->
     <section>
         <div id="Container">
-            <aside>
 
 
+            <aside class="menu">
                 <!--Unordered list, when you click on one of the below, it will take you straight to the paragraph option you have clicked on.-->
-                <div id="menu">
-                    <ul class="menu">
-                        <h3 id="nav-text">Menu</h3>
-                        <li><a href="#Education">Education</a></li>
-                        <li><a href="#Experience">Experience</a></li>
-                        <li><a href="#Skills">Skills</a></li>
-                        <li><a href="#contact">Contact Details</a></li>
-                    </ul>
-                </div>
+                <ul>
+                    <h3>Menu</h3>
+                    <li><a href="#Education">Education</a></li>
+                    <li><a href="#Experience">Experience</a></li>
+                    <li><a href="#Skills">Skills</a></li>
+                    <li><a href="#contact">Contact Details</a></li>
+                </ul>
             </aside>
 
 
             <!--Main-->
             <article class="article">
-                <div id= "article">
+                <div id="article">
                     <h2 id="Education">Education</h2>
                     <h3 id="h3">Intro to Web at <a href="https://www.codespace.co.za" id="codespace">CodeSpace
                             Academy</a>
@@ -171,7 +170,6 @@
     <footer>
         <div id="container-footer">
 
-
             <!--div for fieldset-->
             <div id="form">
                 <fieldset>
@@ -215,6 +213,22 @@
                     </form>
             </div>
         </div>
+
+        <!-- Icons -->
+        <h5>Contact Details</h5>
+
+        <i class="fa-brands fa-linkedin"></i>
+        <br>
+        <br>
+        <i class="fa-brands fa-square-instagram">
+
+        </i>
+        <br>
+        <br>
+        <i class="fa-brands fa-whatsapp"> +27 671 327 621</i>
+        <br>
+        <br>
+        <i class="fa-brands fa-github"></i>
     </footer>
 </body>
 
